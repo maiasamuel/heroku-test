@@ -4,6 +4,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/maiasamuel/heroku-test#readme",
   "description": "",
   "dependencies": {
+    "dotenv": "^2.0.0",
     "express": "^4.14.0"
   }
 }
